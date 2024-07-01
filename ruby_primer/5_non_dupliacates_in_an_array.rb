@@ -7,8 +7,6 @@
 
 # Example: Given [1,2,2,3,3,4,5], the method should return [1,4,5]
 
-def non_duplicated_values(values)
-  values.find_all { values.count(_1) == 1 }
-end
+def non_duplicated_values(values) = values.find_all { values.count(_1) == 1 }
 
 p non_duplicated_values([1, 2, 2, 3, 3, 4, 5])

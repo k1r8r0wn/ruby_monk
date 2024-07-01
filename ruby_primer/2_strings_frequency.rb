@@ -15,8 +15,6 @@
 # [9,3,4,9,5].count(9)
 # Will return the value 2
 
-def find_frequency(sentence, word)
-  sentence.downcase.split(' ').count(word)
-end
+def find_frequency(sentence, word) = sentence.downcase.split(' ').count(word)
 
 p find_frequency('Do or do not... there is no try.', 'do')

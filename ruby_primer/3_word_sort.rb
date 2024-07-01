@@ -10,8 +10,6 @@
 
 # NOTE: You can use the sort method to sort an array. Try the documentation at ruby-lang to know more about sort.
 
-def sort_string(string)
-  string.split.sort_by(&:length).join(' ')
-end
+def sort_string(string) = string.split.sort_by(&:length).join(' ')
 
 p sort_string('Awesome I am')
